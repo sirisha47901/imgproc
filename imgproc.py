@@ -71,8 +71,8 @@ def convert():
     result = result_html.replace('{{ image }}', img_base64)
     return result
 
-#if __name__ == '__main__':
-#    app.run(host='192.168.1.7', port=80)
-
 if __name__ == '__main__':
-   app.run(host='0.0.0.0', port=80)
+    app.run(host='0.0.0.0', port=80)
+
+#if __name__ == '__main__':
+  # app.run(host='https://imgprocapp.azurewebsites.net/', port=80)
